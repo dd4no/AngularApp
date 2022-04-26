@@ -1,0 +1,10 @@
+<!-- <p>child works!</p> -->
+<h1>Posts from "https://jsonplaceholder.typicode.com/posts"</h1>
+<br>
+<hr>
+<br>
+<div *ngFor="let post of postList">
+    <h3>Title: {{post['title']}} </h3>
+    <h5>Body: {{post['body']}}</h5>
+    <hr>
+</div>
